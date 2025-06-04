@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #dcdcdc;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+/* container <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.container{
+    background: linear-gradient(180deg,rgb(24, 186, 227),rgb(186, 157, 255));
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    display: none;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.h1Class{
+    font-weight: bolder;
+    font-size: 3em;
+    text-align: center;
+}
+
+.pClass{
+    text-align: center;
+    margin: 10px 1px;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.emojiClass{
+    font-size: 10em;
+    margin: 20px auto;
+}
+
+/* container >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+/* formField <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.formField{
+    margin: 30px 10px 10px 10px;
+
+}
+
+/* inputField <<<<<<<<<<<<<<< */
+.inputField{
+    font-weight: bold;
+    font-size: 2rem;
+    border: 2px blaca5d9e1 k solid;
+    border-radius: 10px;
+    display: inline;
+    width: 300px;
+    
+}
+/* inputField >>>>>>>>>>>>>>> */
+
+
+/* submit <<<<<<<<<<<<<<<<<<< */
+button[type="submit"]{
+    font-size: 2rem;
+    display: inline;
+    background-color: #a5d9e1;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 2px black solid;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: #fff ;
+}
+
+button[type="submit"]:hover{
+    background-color: #71bac5;
+}
+
+/* submit >>>>>>>>>>>>>>>>>>> */
+
+
+/* formField >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
